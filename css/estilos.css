@@ -1,0 +1,70 @@
+body{
+    font-family: "Montserrat";
+    padding-top: 105px;
+    background:#9ea19b;
+    /* background:linear-gradient(#9CF07A,bg-secondary); */
+    /* background:linear-gradient(#9CF07A,#5A7000); */
+    /* background:linear-gradient(#9CF07A,#476E38); */
+}
+
+.header{
+    position: fixed;
+    background:linear-gradient(#9CF07A,#476E38);
+    z-index: 3;
+    top:0;
+}
+
+.separador{
+    background:#306E17;
+}
+
+.slider{
+    max-width: 1600px;
+}
+
+aside{
+    background:linear-gradient(#9CF07A,#306E17);
+}
+
+.btn-primary{
+    background-color: #306E17;
+}
+
+.form-control{
+    background-color:#9CF07A;
+}
+
+@keyframes animacion1{
+    0%{transform:scale(1);}
+    50%{transform: scale(1.1);}
+    100%{transform: scale(1)}
+}
+
+@keyframes animacion2{
+    0%{transform:translateY(-50px);}
+    50%{transform: translateY(50px);}
+    100%{transform: translateY(0)}
+}
+
+.novedad-imagen:hover{
+    animation-name: animacion2;
+    animation-duration: 2s;
+}
+#navbarNav ul a:hover{
+    background-color: #476E38 ;
+}
+
+.ubicacion-imagen:hover{
+    animation-name: animacion1;
+    animation-duration: 3s;
+   
+}
+.contenido:hover{
+    background:linear-gradient(#9CF07A,#51BA27);
+}
+
+.separador-menu{
+    font-size: 2rem;
+}
+
+
