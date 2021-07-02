@@ -2,9 +2,6 @@ body{
     font-family: "Montserrat";
     padding-top: 105px;
     background:#9ea19b;
-    /* background:linear-gradient(#9CF07A,bg-secondary); */
-    /* background:linear-gradient(#9CF07A,#5A7000); */
-    /* background:linear-gradient(#9CF07A,#476E38); */
 }
 
 .header{
@@ -68,3 +65,32 @@ aside{
 }
 
 
+/* Media Queries */
+/* 
+Grandes -> 961px - 1200px
+Medianos -> 561px - 960px
+Pequeños -> 0px - 560px
+*/
+
+/* Grandes */
+@media screen and (min-width:961px) and (max-width: 1200px){
+
+} 
+
+/* Medianos */
+@media screen and (min-width: 561px) and (max-width: 960px){
+	
+}
+
+/* Pequeños */
+@media (min-width:0px) and (max-width: 560px){
+	
+    .nav-title{
+		display: none;
+	}
+   
+    .w-75{
+		width:100%;
+	} 
+
+	
