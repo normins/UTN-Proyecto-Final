@@ -37,27 +37,25 @@ aside{
     100%{transform: scale(1)}
 }
 
-@keyframes animacion2{
-    0%{transform:translateY(-50px);}
-    50%{transform: translateY(50px);}
-    100%{transform: translateY(0)}
-}
-
 .novedad-imagen:hover{
-    animation-name: animacion2;
-    animation-duration: 2s;
+    transform: translateY(50px);
+    transition: all 1s ease;
 }
 #navbarNav ul a:hover{
     background-color: #476E38 ;
 }
 
 .ubicacion-imagen:hover{
-    animation-name: animacion1;
-    animation-duration: 3s;
-   
+    transform:  scale(1.1);
+    transition: all 2s ease;
 }
+    
 .contenido:hover{
     background:linear-gradient(#9CF07A,#51BA27);
+    margin-left:-10px;
+    margin-right:-10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .separador-menu{
@@ -66,31 +64,16 @@ aside{
 
 
 /* Media Queries */
-/* 
-Grandes -> 961px - 1200px
-Medianos -> 561px - 960px
-Pequeños -> 0px - 560px
-*/
-
-/* Grandes */
-@media screen and (min-width:961px) and (max-width: 1200px){
-
-} 
-
-/* Medianos */
-@media screen and (min-width: 561px) and (max-width: 960px){
-	
-}
 
 /* Pequeños */
-@media (min-width:0px) and (max-width: 560px){
+@media (min-width:0px) and (max-width: 769px){
 	
     .nav-title{
 		display: none;
 	}
    
-    .w-75{
+    /* .w-75{
 		width:100%;
-	} 
+	}  */
 
-	
+}
